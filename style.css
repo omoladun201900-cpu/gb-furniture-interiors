@@ -1,0 +1,190 @@
+/* GOOGLE FONT STYLING */
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* RESET DEFAULT SPACING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY STYLING */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* NAVIGATION BAR */
+nav {
+  background-color: #8B4513;
+  padding: 18px 30px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* NAVIGATION LINKS */
+nav a {
+  color: #FFD700;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+/* NAVIGATION HOVER EFFECT */
+nav a:hover {
+  color: #ffffff;
+}
+
+/* SECTION STYLING */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* HOME SECTION */
+#home {
+  background-color: #f8f8f8;
+}
+
+/* GUARANTEE TEXT */
+.guarantee {
+  margin-top: 15px;
+  color: #8B4513;
+  font-weight: bold;
+}
+
+/* SERVICES GRID */
+.services-grid,
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* SERVICE & GALLERY CARDS */
+.service-item,
+.gallery-item {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* GALLERY IMAGE */
+.gallery-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* PRICE TEXT */
+.price {
+  margin-top: 10px;
+  color: #8B4513;
+  font-weight: bold;
+}
+
+/* CONTACT FORM */
+form {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+/* INPUTS & TEXTAREA */
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* BUTTON STYLE */
+form button {
+  background-color: #8B4513;
+  color: #FFD700;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* BUTTON HOVER */
+form button:hover {
+  background-color: #FFD700;
+  color: #8B4513;
+}
+
+/* FOOTER */
+footer {
+  background-color: #8B4513;
+  color: #FFD700;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* SMOOTH SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25D366;
+  color: #ffffff;
+  padding: 14px 22px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  z-index: 999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+/* WHATSAPP BUTTON HOVER */
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+
+  .services-grid,
+  .gallery-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 0 8px;
+    font-size: 13px;
+  }
+
+  .whatsapp-btn {
+    bottom: 20px;
+    right: 15px;
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+}
