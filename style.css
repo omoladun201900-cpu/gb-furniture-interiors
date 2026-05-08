@@ -50,16 +50,35 @@ section {
   text-align: center;
 }
 
-/* HOME SECTION */
 #home {
-  background-color: #f8f8f8;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)), 
+    url('https://i.postimg.cc/j5vLGYVY/c56b89ac-abbe-4a5c-a010-818e73ea9f36.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 150px 30px;
+  min-height: 500px;
 }
 
-/* GUARANTEE TEXT */
+#home h1 {
+  color: #FFD700;
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+#home p {
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
 .guarantee {
-  margin-top: 15px;
-  color: #8B4513;
+  color: #FFD700 !important;
   font-weight: bold;
+  margin-top: 15px;
 }
 
 /* SERVICES GRID */
